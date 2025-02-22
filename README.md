@@ -54,7 +54,7 @@ Open index.html in your browser.
 
 Online via GitHub Pages
 
-Visit the live site 
+Visit the live site: (https://aneeta007.github.io/altschool-profile/)
 
 📌 Technologies Used
 
