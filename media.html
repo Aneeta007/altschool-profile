@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Message</title>
+</head>
+<body>
+
+    <h1>My Journey to Cloud Engineering</h1>
+
+    <!-- Responsive Image Using <picture> -->
+    <h2>My AltSchool Picture</h2>
+    <picture>
+        <!-- Image for Mobile (up to 600px wide) -->
+        <source srcset="assets/my-alt-school-journey.jpg" media="(max-width: 600px)">
+        
+        <!-- Image for Tablet (601px - 1024px wide) -->
+        <source srcset="assets/my-alt-school-journey.jpg" media="(max-width: 1024px)">
+        
+        <!-- Image for Laptop/Desktop (1025px and above) -->
+        <source srcset="assets/my-alt-school-journey.jpg" media="(min-width: 1025px)">
+        
+        <!-- Default Fallback Image -->
+        <img src="assets/my-alt-school-journey.jpg" alt="My Journey Image" width="100%">
+    </picture>
+
+    <!-- Video Section -->
+    <h2>My Video Message</h2>
+    <video controls width="100%">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogv" type="video/ogg">
+        <p>Your browser doesn't support video. <a href="video.mp4">Download it here</a>.</p>
+    </video>
+
+    <!-- Audio Section -->
+    <h2>Listen to My Voice</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+        Your browser does not support audio.
+    </audio>
+
+    <!-- Embedded Content (YouTube) -->
+    <h2>Watch My Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+
+</body>
+</html>
